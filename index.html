@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/timerSection.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+  </head>
+  <body>
+    <main id="mainContainer">
+      <h1 class="mainTitle">
+        <span class="a11y-hidden">위니브</span>
+        <img src="images/weniv-logo.png" alt="weniv-logo" />
+      </h1>
+
+      <section id="timerContainer">
+        <h2 class="timerTitle">TIMER</h2>
+        <hr class="timerHr" />
+        <div class="timer">
+          <div class="timeWrapper">
+            HRS
+            <input class="inputTime" id="hourTimer" type="number" value="00" max="24" />
+          </div>
+          <span>:</span>
+          <div class="timeWrapper">
+            MIN
+            <input class="inputTime" id="minTimer" type="number" value="00" max="59" />
+          </div>
+          <span>:</span>
+          <div class="timeWrapper">
+            SEC
+            <input class="inputTime" id="secTimer" type="number" value="00" max="59" />
+          </div>
+        </div>
+
+        <ul class="btnContainer">
+          <li>
+            <button class="btn start-btn disabled" disabled>
+              <img src="images/icon-start.png" alt="startButtonIcon" />START
+            </button>
+            <button class="btn pause-btn hide"><img src="images/icon-stop.png" alt="pauseButtonIcon" />PAUSE</button>
+          </li>
+          <li>
+            <button class="btn reset-btn disabled" disabled>
+              <img src="images/icon-reset.png" alt="resetButtonIcon" />RESET
+            </button>
+          </li>
+        </ul>
+      </section>
+      <footer><p class="coprName">@ WENIV CORP.</p></footer>
+    </main>
+
+    <script src="./scripts/timer.js"></script>
+  </body>
+</html>

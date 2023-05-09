@@ -1,0 +1,95 @@
+#timerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40rem;
+  height: 36rem;
+  border-radius: 2rem;
+  background-color: #354971;
+  padding: 4rem 2.4rem 2.4rem 2.4rem;
+}
+.timerTitle {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: white;
+}
+.timerHr {
+  width: 100%;
+  border: none;
+  border-top: 0.1rem solid #3d538a;
+  border-bottom: 0.1rem solid #5b75b4;
+  margin: 2.3rem 0 3.2rem 0;
+}
+
+.timer {
+  display: flex;
+  color: #8198d0;
+  gap: 1rem;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.timer > span {
+  padding-top: 4rem;
+}
+
+.timeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  color: #a5b6ee;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.inputTime {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 1rem;
+  border: 0.2rem solid #203154;
+  background-color: #354971;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 1rem;
+  outline: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 11.2rem;
+  height: 4.8rem;
+  border-radius: 2.6rem;
+  color: white;
+}
+.start-btn {
+  background-color: #5180ff;
+}
+.pause-btn {
+  background-color: #15c2b8;
+}
+.reset-btn {
+  background-color: #fb7099;
+}
+
+.disabled {
+  background-color: #273550;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+  color: rgba(255, 255, 255, 0.5);
+}
+.disabled > img {
+  opacity: 0.5;
+}
+
+.btnContainer {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 4rem;
+}
+
+.hide {
+  display: none;
+}

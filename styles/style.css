@@ -1,0 +1,24 @@
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    140deg,
+    #ffffff 0%,
+    #8596bf 15%,
+    #8198d0 30%,
+    #5b75b4 45%,
+    #617199 60%,
+    #3d538a 75%,
+    #324577 90%,
+    #354971 100%
+  );
+}
+
+.mainTitle > img {
+  width: 24.4rem;
+  height: 4.8rem;
+}
